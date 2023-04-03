@@ -44,6 +44,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    width: 475px;
+}
+
 p {
     font-family: Tahoma;
 }
