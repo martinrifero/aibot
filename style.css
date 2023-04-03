@@ -1,0 +1,184 @@
+.back-to-top {
+    position: fixed;
+    left: 10px;
+    bottom: 1000px;
+    width: 50px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 70%;
+    background-color: #5d5d5d;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+    filter: brightness(1.5);
+    outline: none;
+}
+
+.back-to-top::before,
+.back-to-top::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back-to-top::before {
+    width: 5px;
+    height: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #262626;
+}
+
+.back-to-top::after {
+    width: 15px;
+    height: 15px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: 5px solid #262626;
+    border-left: 5px solid #262626;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: Tahoma;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: .8;
+    border: 3px solid #fff;
+}
+
+.container {
+    position: relative;
+    max-width: 475px;
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.сardtext {
+    position: relative;
+    width: 455px;
+    height: 258px;
+    background: transparent;
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #262626;
+}
+
+.card {
+    position: relative;
+    width: 455px;
+    height: 258px;
+    background: transparent;
+    box-shadow:
+        inset 20px 20px 20px rgba(0, 0, 0, .05),
+        5px 25px 20px rgba(0, 0, 0, .05),
+        5px 20px 30px rgba(0, 0, 0, .05),
+        inset -20px -20px 25px rgba(255, 255, 255, .9);
+    border-radius: 10%;
+    transition: .5s ease-in-out;
+    margin-bottom: 40px;
+}
+
+.card:hover {
+    border-radius: 85% 15% 82% 18% / 24% 87% 13% 76%;
+}
+
+.card .card-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.card-content .name-profession {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #262626;
+    font-family: Tahoma;
+}
+
+.name-profession .name {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Tahoma;
+    color: #262626;
+}
+
+.name-profession .profession {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Tahoma;
+}
+
+.text3 {
+    float: left;
+    margin-right: 15px;
+    color: #262626;
+}
+
+.btn-primary {
+    position: relative;
+    padding: 16px 42px;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #5d5d5d;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    margin-right: 12px;
+    font-family: Tahoma;
+}
+
+.btn-secondary {
+    position: relative;
+    padding: 16px 30px;
+    background: #e9e9ed;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #4a9ef2;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 8px;
+    margin-bottom: 1px;
+    font-family: Tahoma;
+}
+
+.btn-third {
+    position: relative;
+    padding: 16px 35px;
+    background: #e9e9ed;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #5d5d5d;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+}
