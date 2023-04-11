@@ -42,61 +42,87 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #1a2c38;
 }
 
 body {
-    width: 475px;
+    width: 390px;
+    background-color: #1a2c38;
 }
 
 p {
     font-family: Tahoma;
 }
 
+span {
+    font-size: 11px;
+    color: #cbcbcb;
+    margin-right: 5px;
+}
+
+b {
+    font-size: 14px;
+    color: #ececec;  
+}
+
 .image img {
-    width: 100px;
+    width: 90px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 25px;
+    opacity: .8;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 12px;
+}
+
+.image2 img {
+    width: 250px;
     height: 100px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 25px;
     opacity: .8;
-    border: 3px solid #fff;
+    margin-top: 9px;
+    margin-bottom: 1px;
+    margin-right: 12px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .container {
-    position: relative;
-    max-width: 475px;
-    width: 100%;
-    padding: 10px;
-    margin-right: 10px;
+    width: 380px;
+    height: 700px;
+    background-color: #1a2c38;
+    margin-bottom: 35px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
-.сardtext {
-    position: relative;
-    width: 455px;
-    height: 258px;
-    background: transparent;
-    margin-bottom: 40px;
-    font-size: 12px;
-    font-family: Tahoma;
-    color: #262626;
+.image3 img {
+    width: 170px;
+    height: 170px;
+    margin-right: 15px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, .8), 6px 6px 1px rgba(0, 0, 0, .6), 9px 9px 9px rgba(0, 0, 0, .8);
 }
 
 .card {
     position: relative;
-    width: 455px;
-    height: 258px;
-    background: transparent;
-    box-shadow:
-        inset 20px 20px 20px rgba(0, 0, 0, .05),
-        5px 25px 20px rgba(0, 0, 0, .05),
-        5px 20px 30px rgba(0, 0, 0, .05),
-        inset -20px -20px 25px rgba(255, 255, 255, .9);
-    border-radius: 10%;
+    width: 380px;
+    height: 260px;
+    background-color: #0f212e;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
     transition: .5s ease-in-out;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
+    margin-left: 5px;
 }
 
 .card:hover {
-    border-radius: 85% 15% 82% 18% / 24% 87% 13% 76%;
+    border-radius: 93% 7% 92% 8% / 11% 90% 10% 89%;
 }
 
 .card .card-content {
@@ -104,29 +130,60 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 25px;
+    padding: 15px;
 }
 
-.card-content .name-profession {
+.card2{
+    position: relative;
+    width: 380px;
+    height: 324px;
+    background-color: #0f212e;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    transition: .5s ease-in-out;
+    margin-bottom: 35px;
+    margin-left: 5px;
+}
+
+.card2:hover {
+    border-radius: 93% 7% 92% 8% / 11% 90% 10% 89%;
+}
+
+.card2 .card-content {
+    position: relative;
     display: flex;
-    float: right;
+    align-items: center;
     flex-direction: column;
-    margin-top: 10px;
-    color: #262626;
-    font-family: Tahoma;
+    padding: 15px;
 }
 
-.name-profession .name {
-    font-size: 20px;
-    font-weight: 600;
-    font-family: Tahoma;
-    color: #262626;
+.card3{
+    position: relative;
+    width: 380px;
+    height: 200px;
+    background-color: #0f212e;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    transition: .5s ease-in-out;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
-.name-profession .profession {
-    font-size: 15px;
-    font-weight: 500;
-    font-family: Tahoma;
+.card3:hover {
+    border-radius: 93% 7% 92% 8% / 11% 90% 10% 89%;
+}
+
+.card3 .card-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
 }
 
 .text3 {
@@ -137,26 +194,182 @@ p {
 
 .btn-primary {
     position: relative;
-    padding: 16px 42px;
-    background: #f0f0f0;
+    padding: 16px 35px;
+    background: #2f4553;
     border: none;
     outline: none;
     border-radius: 40px;
     cursor: pointer;
     font-size: 13px;
-    color: #5d5d5d;
+    color: #ececec;
     font-weight: 500;
     opacity: .75;
-    margin-top: 5px;
-    margin-bottom: 1px;
+    margin-top: 19px;
+    margin-bottom: 5px;
     margin-right: 12px;
     font-family: Tahoma;
 }
 
 .btn-secondary {
     position: relative;
-    padding: 16px 30px;
-    background: #e9e9ed;
+    padding: 16px 35px;
+    background: #071824;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #4a9ef2;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 19px;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+}
+
+.btn-primary1 {
+    position: relative;
+    padding: 16px 35px;
+    background: #2f4553;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ececec;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    margin-right: 12px;
+    font-family: Tahoma;
+}
+
+.btn-secondary2 {
+    position: relative;
+    padding: 16px 35px;
+    background: #071824;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #4a9ef2;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+}
+
+.btn-third {
+    position: relative;
+    padding: 16px 35px;
+    background: #2f4553;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ececec;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+}
+
+.btn-four {
+    position: relative;
+    padding: 16px 35px;
+    background: #2f4553;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ececec;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 19px;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+}
+
+.btn-five {
+    position: relative;
+    padding: 16px 35px;
+    background: #2f4553;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ececec;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 19px;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+}
+
+.btn-six {
+    position: relative;
+    padding: 16px 35px;
+    background: #2f4553;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ececec;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 19px;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+}
+
+.btn-seven {
+    position: relative;
+    padding: 16px 35px;
+    background: #2f4553;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ececec;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 19px;
+    margin-bottom: 5px;
+    font-family: Tahoma;
+}
+
+.btn-eight {
+    position: relative;
+    padding: 16px 35px;
+    background: #2f4553;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ececec;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Tahoma;
+}
+
+.btn-nine {
+    position: relative;
+    padding: 16px 35px;
+    background: #071824;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -170,19 +383,18 @@ p {
     font-family: Tahoma;
 }
 
-.btn-third {
+.btn-ten {
     position: relative;
     padding: 16px 35px;
-    background: #e9e9ed;
+    background: #071824;
     border: none;
     outline: none;
     border-radius: 40px;
     cursor: pointer;
     font-size: 13px;
-    color: #5d5d5d;
+    color: #4a9ef2;
     font-weight: 500;
     opacity: .75;
-    margin-top: 13px;
-    margin-bottom: 5px;
+    margin-top: 20px;
     font-family: Tahoma;
 }
