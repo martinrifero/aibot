@@ -43,13 +43,16 @@
 html {
     scroll-behavior: smooth;
     background-color: #1a2c38;
-    width: 100%;
+    width: auto;
 }
 
 body {
     width: 390px;
     background-color: #1a2c38;
-    width: 100%;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Tahoma;
 }
 
 p {
@@ -60,11 +63,13 @@ span {
     font-size: 11px;
     color: #cbcbcb;
     margin-right: 5px;
+    font-family: Tahoma;
 }
 
 b {
     font-size: 14px;
-    color: #ececec;  
+    color: #ececec; 
+    font-family: Tahoma; 
 }
 
 .image img {
@@ -100,6 +105,7 @@ b {
     margin-bottom: 35px;
     margin-right: 5px;
     margin-left: 5px;
+    font-family: Tahoma;
 }
 
 .image3 img {
@@ -111,7 +117,7 @@ b {
 
 .card {
     position: relative;
-    width: 370px;
+    width: 380px;
     height: 260px;
     background-color: #0f212e;
     -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
@@ -120,6 +126,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
+    font-family: Tahoma;
 }
 
 .card:hover {
@@ -146,7 +153,6 @@ b {
     transition: .5s ease-in-out;
     margin-bottom: 35px;
     margin-left: 5px;
-    margin-right: 5px;
 }
 
 .card2:hover {
