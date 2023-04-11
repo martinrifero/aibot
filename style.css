@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Segoe UI', sans-serif;
-    src: local('Segoe UI'),
+    src: local('Segoe UI');
+    src: url('fonts/Segoe\ UI.ttf');
 }
 
 html {
