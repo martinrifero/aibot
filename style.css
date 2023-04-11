@@ -1,34 +1,29 @@
-@import url("https://fonts.googleapis.com/css?family=Tahoma");
-
-
 html {
     scroll-behavior: smooth;
     background-color: #1a2c38;
 }
 
 body {
-    width: 390px;
+    width: 384px;
     background-color: #1a2c38;
-    margin-left: 2px;
-    margin-right: 2px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 p {
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 span {
     font-size: 11px;
     color: #cbcbcb;
     margin-right: 5px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 b {
     font-size: 14px;
     color: #ececec; 
-    font-family: Tahoma; 
+    font-family: Segoe UI; 
 }
 
 .image img {
@@ -62,7 +57,7 @@ b {
     height: 700px;
     background-color: #1a2c38;
     margin-bottom: 35px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .image3 img {
@@ -82,7 +77,9 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .card:hover {
@@ -90,7 +87,6 @@ b {
 }
 
 .card .card-content {
-    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -98,7 +94,6 @@ b {
 }
 
 .card2{
-    position: relative;
     width: 380px;
     height: 324px;
     background-color: #0f212e;
@@ -108,7 +103,8 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    margin-left: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .card2:hover {
@@ -116,7 +112,6 @@ b {
 }
 
 .card2 .card-content {
-    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -124,7 +119,6 @@ b {
 }
 
 .card3{
-    position: relative;
     width: 380px;
     height: 200px;
     background-color: #0f212e;
@@ -134,8 +128,8 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 25px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .card3:hover {
@@ -143,7 +137,6 @@ b {
 }
 
 .card3 .card-content {
-    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -154,6 +147,7 @@ b {
     float: left;
     margin-right: 15px;
     color: #262626;
+    font-family: Segoe UI;
 }
 
 .btn-primary {
@@ -171,7 +165,7 @@ b {
     margin-top: 19px;
     margin-bottom: 5px;
     margin-right: 12px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-secondary {
@@ -188,7 +182,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-primary1 {
@@ -206,7 +200,7 @@ b {
     margin-top: 6px;
     margin-bottom: 5px;
     margin-right: 12px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-secondary2 {
@@ -223,7 +217,7 @@ b {
     opacity: .75;
     margin-top: 6px;
     margin-bottom: 5px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-third {
@@ -240,7 +234,7 @@ b {
     opacity: .75;
     margin-top: 9px;
     margin-bottom: 5px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-four {
@@ -257,7 +251,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-five {
@@ -274,7 +268,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-six {
@@ -291,7 +285,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-seven {
@@ -308,7 +302,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-eight {
@@ -327,7 +321,7 @@ b {
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-nine {
@@ -344,7 +338,7 @@ b {
     opacity: .75;
     margin-top: 8px;
     margin-bottom: 1px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
 
 .btn-ten {
@@ -360,5 +354,5 @@ b {
     font-weight: 500;
     opacity: .75;
     margin-top: 20px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
 }
