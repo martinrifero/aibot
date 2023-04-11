@@ -1,12 +1,12 @@
 html {
-    width: 380px;
     background-color: #1a2c38;
 }
 
 body {
-    width: 380px;
+    min-width: 390px;
     background-color: #1a2c38;
     font-family: 'Segoe UI';
+    padding: 0px 5px;
 }
 
 p {
