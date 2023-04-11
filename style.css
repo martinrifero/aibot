@@ -1,29 +1,29 @@
 html {
-    scroll-behavior: smooth;
+    width: 380px;
     background-color: #1a2c38;
 }
 
 body {
-    width: 384px;
+    width: 380px;
     background-color: #1a2c38;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 p {
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 span {
     font-size: 11px;
     color: #cbcbcb;
     margin-right: 5px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 b {
     font-size: 14px;
     color: #ececec; 
-    font-family: Segoe UI; 
+    font-family: 'Segoe UI';
 }
 
 .image img {
@@ -57,7 +57,7 @@ b {
     height: 700px;
     background-color: #1a2c38;
     margin-bottom: 35px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .image3 img {
@@ -77,9 +77,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    font-family: Segoe UI;
-    margin-left: 2px;
-    margin-right: 2px;
+    font-family: 'Segoe UI';
 }
 
 .card:hover {
@@ -103,8 +101,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    margin-left: 2px;
-    margin-right: 2px;
+    font-family: 'Segoe UI';
 }
 
 .card2:hover {
@@ -128,8 +125,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 25px;
-    margin-left: 2px;
-    margin-right: 2px;
+    font-family: 'Segoe UI';
 }
 
 .card3:hover {
@@ -147,7 +143,7 @@ b {
     float: left;
     margin-right: 15px;
     color: #262626;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-primary {
@@ -165,7 +161,7 @@ b {
     margin-top: 19px;
     margin-bottom: 5px;
     margin-right: 12px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-secondary {
@@ -182,7 +178,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-primary1 {
@@ -200,7 +196,7 @@ b {
     margin-top: 6px;
     margin-bottom: 5px;
     margin-right: 12px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-secondary2 {
@@ -217,7 +213,7 @@ b {
     opacity: .75;
     margin-top: 6px;
     margin-bottom: 5px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-third {
@@ -234,7 +230,7 @@ b {
     opacity: .75;
     margin-top: 9px;
     margin-bottom: 5px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-four {
@@ -251,7 +247,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-five {
@@ -268,7 +264,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-six {
@@ -285,7 +281,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-seven {
@@ -302,7 +298,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-eight {
@@ -321,7 +317,7 @@ b {
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-nine {
@@ -338,7 +334,7 @@ b {
     opacity: .75;
     margin-top: 8px;
     margin-bottom: 1px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .btn-ten {
@@ -354,5 +350,5 @@ b {
     font-weight: 500;
     opacity: .75;
     margin-top: 20px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
