@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Segoe UI', sans-serif;
+    src: local('Segoe UI'),
+    url('/fonts/Segoe UI.ttf')
+}
+
 html {
     background-color: #1a2c38;
 }
@@ -6,7 +12,7 @@ body {
     min-width: 390px;
     background-color: #1a2c38;
     font-family: 'Segoe UI';
-    padding: 0px 5px;
+    padding: 5px;
 }
 
 p {
