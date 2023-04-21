@@ -1,7 +1,13 @@
 @font-face {
     font-family: 'Segoe UI', sans-serif;
     src: local('Segoe UI');
-    src: url('Segoe\ UI.ttf');
+    src: url('Segoe.ttf');
+}
+
+@media only screen and (min-width: 390px) {
+    body {
+      min-width: 550px;
+    }
 }
 
 html {
@@ -436,10 +442,39 @@ b {
     opacity: .75;
     margin-top: 18px;
     margin-bottom: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
     font-family: 'Segoe UI';
 }
+
+.btn-eight1 {
+    position: relative;
+    padding: 16px 35px;
+    background: #2f4553;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ececec;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI';
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    z-index: 999;
+}
+
+.fixed-button1 {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 999;
+  }
 
 .btn-nine {
     position: relative;
