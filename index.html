@@ -7,13 +7,9 @@
     <meta name="viewport" content="width=390", initial-scale=1.0>
     <title>HEART OF AIBOT</title>
     <link rel="stylesheet" types="text/css" href="style.css">
-    <style>
-        @font-face {
-            font-family: 'Segoe UI', sans-serif;
-            src: local('Segoe UI');
-            src: url('Segoe.ttf');
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <iframe width="360" height="200"
@@ -49,12 +45,12 @@
                     создавать уникальные эффекты, арты и полноценные картины в разных стилях.</span></p>
             </div>
             <div>
-                <button class="btn-four" id="btn-1">▾ ВЫБРАТЬ НЕЙРОСЕТЬ ▾</button>
+                <button class="btn-four">▾ ВЫБРАТЬ НЕЙРОСЕТЬ ▾</button>
             </div>
         </div>
     </div>
     <div class="neuroset-block" style="display:none;">
-        <div class="card2" id="card-1">
+        <div class="card2">
             <div class="card-content">
                 <div class="image2">
                     <center><img src="img11.jpg" alt="">
@@ -157,16 +153,15 @@
     });
     </script>
     <script>
-    const button = document.querySelector('#btn-1');
-    const card3 = document.querySelector('#card-1');
+    const button = document.querySelector('.btn-eight2');
+    const card3 = document.querySelector('#card-3');
     
     button.addEventListener('click', () => {
         const topOffset = card3.offsetTop;
 
         window.scrollTo({
         top: topOffset,
-        behavior: 'smooth',
-        step: 10
+        behavior: 'smooth'
         });
     });
     </script>

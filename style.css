@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Segoe UI', sans-serif;
-    src: local('Segoe UI');
-    src: url('Segoe.ttf');
-}
-
 @media only screen and (min-width: 390px) {
     body {
       min-width: 550px;
@@ -18,27 +12,27 @@ body {
     min-width: 390px;
     height: 100%;
     background-color: #1a2c38;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin: 0 5px;
     padding: 0;
     top: 0;
 }
 
 p {
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 span {
     font-size: 11px;
     color: #cbcbcb;
     margin-right: 5px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 b {
     font-size: 14px;
     color: #ececec; 
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .image img {
@@ -99,7 +93,7 @@ b {
     height: 700px;
     background-color: #1a2c38;
     margin-bottom: 35px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .container1 {
@@ -107,7 +101,7 @@ b {
     height: 50px;
     background-color: #0f212e;
     margin-bottom: 15px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .image3 img {
@@ -140,7 +134,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .card:hover {
@@ -164,7 +158,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .card2:hover {
@@ -188,7 +182,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .card22:hover {
@@ -213,7 +207,7 @@ b {
     transition: .5s ease-in-out;
     margin-bottom: 25px;
     margin-top: 8px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .card3:hover {
@@ -238,7 +232,7 @@ b {
     transition: .5s ease-in-out;
     margin-bottom: 25px;
     margin-top: 8px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .card5:hover {
@@ -256,7 +250,7 @@ b {
     float: left;
     margin-right: 15px;
     color: #262626;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-primary {
@@ -274,7 +268,7 @@ b {
     margin-top: 16px;
     margin-bottom: 5px;
     margin-right: 12px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-secondary {
@@ -291,7 +285,7 @@ b {
     opacity: .75;
     margin-top: 16px;
     margin-bottom: 5px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-primary1 {
@@ -308,7 +302,7 @@ b {
     opacity: .75;
     margin-top: 6px;
     margin-bottom: 5px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-secondary2 {
@@ -325,7 +319,7 @@ b {
     opacity: .75;
     margin-top: 6px;
     margin-bottom: 5px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-third {
@@ -342,7 +336,7 @@ b {
     opacity: .75;
     margin-top: 14px;
     margin-bottom: 3px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-third3 {
@@ -359,7 +353,7 @@ b {
     opacity: .75;
     margin-top: 15px;
     margin-bottom: 3px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-four {
@@ -376,7 +370,7 @@ b {
     opacity: .75;
     margin-top: 18px;
     margin-bottom: 5px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-five {
@@ -393,7 +387,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-six {
@@ -410,7 +404,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-seven {
@@ -427,7 +421,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-eight {
@@ -444,9 +438,9 @@ b {
     opacity: .75;
     margin-top: 18px;
     margin-bottom: 0px;
-    font-family: 'Segoe UI';
-    height: 48px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
-    width: 120px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
+    font-family: 'Roboto';
+    height: 43px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
+    width: 100px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
 }
 
 .btn-eight1 {
@@ -460,17 +454,17 @@ b {
     outline: none;
     border-radius: 40px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     color: #ececec;
     font-weight: 500;
     opacity: .75;
     margin-top: 18px;
     margin-bottom: 0px;
-    font-family: 'Segoe UI';
-    line-height: 48px;
-    margin-right: 55px;
-    height: 48px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
-    width: 120px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
+    font-family: 'Roboto';
+    line-height: 40px;
+    margin-right: 49px;
+    height: 43px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
+    width: 105px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
 }
 
 .btn-eight2 {
@@ -484,16 +478,16 @@ b {
     outline: none;
     border-radius: 100%;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     color: #ececec;
     font-weight: 500;
     opacity: .75;
     margin-top: 18px;
     margin-bottom: 0px;
-    font-family: 'Segoe UI';
-    line-height: 48px;
-    height: 48px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
-    width: 48px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
+    font-family: 'Roboto';
+    line-height: 40px;
+    height: 43px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
+    width: 43px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
 }
 
 .fixed-button {
@@ -524,7 +518,7 @@ b {
     opacity: .75;
     margin-top: 3px;
     margin-bottom: 3px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
 
 .btn-ten {
@@ -540,5 +534,5 @@ b {
     font-weight: 500;
     opacity: .75;
     margin-top: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
 }
