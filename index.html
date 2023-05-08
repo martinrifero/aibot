@@ -16,7 +16,7 @@
     </style>
 </head>
 <body>
-    <iframe width="380" height="200"
+    <iframe width="360" height="200"
     src="https://www.youtube.com/embed/li_9PBrcOcQ"
     frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -49,12 +49,12 @@
                     создавать уникальные эффекты, арты и полноценные картины в разных стилях.</span></p>
             </div>
             <div>
-                <button class="btn-four">▾ ВЫБРАТЬ НЕЙРОСЕТЬ ▾</button>
+                <button class="btn-four" id="btn-1">▾ ВЫБРАТЬ НЕЙРОСЕТЬ ▾</button>
             </div>
         </div>
     </div>
     <div class="neuroset-block" style="display:none;">
-        <div class="card2">
+        <div class="card2" id="card-1">
             <div class="card-content">
                 <div class="image2">
                     <center><img src="img11.jpg" alt="">
@@ -154,6 +154,20 @@
         } else {
             neurosetBlock.style.display = 'block';
         }
+    });
+    </script>
+    <script>
+    const button = document.querySelector('#btn-1');
+    const card3 = document.querySelector('#card-1');
+    
+    button.addEventListener('click', () => {
+        const topOffset = card3.offsetTop;
+
+        window.scrollTo({
+        top: topOffset,
+        behavior: 'smooth',
+        step: 10
+        });
     });
     </script>
     <div class="card">

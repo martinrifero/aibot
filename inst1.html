@@ -39,8 +39,23 @@
         </div>
     </div>
     <div>   
-    <button class="btn-eight fixed-button"><a href="index.html" style="text-decoration: none; color: inherit;">‹‹ НАЗАД</a></button>
-    <button class="btn-eight1 fixed-button1"><a href="index.html" style="text-decoration: none; color: inherit;">Д</a></button>
+    <button class="btn-eight fixed-button"><a href="index.html" style="text-decoration: none; color: inherit;">🡰 НАЗАД</a></button>
+    <button class="btn-eight1 fixed-button1"><a href="index.html" style="text-decoration: none; color: inherit;"> ▷ ЗАПУСК</a></button>
+    <button class="btn-eight2 fixed-button1">🡱</button>
     </div>
+    <script>
+    // Получаем кнопку
+    const button = document.querySelector('.btn-eight2');
+    
+    // Обработчик клика на кнопку
+    button.addEventListener('click', () => {
+        // Плавный скроллинг к верху страницы
+        window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+        step: 10
+        });
+    });
+    </script>
 </body>
 </html>
