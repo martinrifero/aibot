@@ -12,7 +12,7 @@ body {
     min-width: 390px;
     height: 100%;
     background-color: #1a2c38;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -20,20 +20,20 @@ body {
 }
 
 p {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 span {
     font-size: 11px;
     color: #cbcbcb;
     margin-right: 5px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 b {
     font-size: 14px;
     color: #ececec; 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .image img {
@@ -94,7 +94,7 @@ b {
     height: 700px;
     background-color: #1a2c38;
     margin-bottom: 35px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .container1 {
@@ -102,7 +102,7 @@ b {
     height: 50px;
     background-color: #0f212e;
     margin-bottom: 15px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .image3 img {
@@ -135,7 +135,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .card:hover {
@@ -159,7 +159,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .card2:hover {
@@ -183,7 +183,7 @@ b {
     border-radius: 25px;
     transition: .5s ease-in-out;
     margin-bottom: 35px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .card22:hover {
@@ -208,7 +208,7 @@ b {
     transition: .5s ease-in-out;
     margin-bottom: 25px;
     margin-top: 8px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .card3:hover {
@@ -233,7 +233,7 @@ b {
     transition: .5s ease-in-out;
     margin-bottom: 25px;
     margin-top: 8px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .card5:hover {
@@ -251,7 +251,7 @@ b {
     float: left;
     margin-right: 15px;
     color: #262626;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-primary {
@@ -269,7 +269,7 @@ b {
     margin-top: 16px;
     margin-bottom: 5px;
     margin-right: 12px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-secondary {
@@ -286,7 +286,7 @@ b {
     opacity: .75;
     margin-top: 16px;
     margin-bottom: 5px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-primary1 {
@@ -304,7 +304,7 @@ b {
     margin-top: 6px;
     margin-bottom: 5px;
     margin-right: 12px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-secondary2 {
@@ -321,7 +321,7 @@ b {
     opacity: .75;
     margin-top: 6px;
     margin-bottom: 5px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-third {
@@ -338,7 +338,7 @@ b {
     opacity: .75;
     margin-top: 14px;
     margin-bottom: 3px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-third3 {
@@ -355,7 +355,7 @@ b {
     opacity: .75;
     margin-top: 15px;
     margin-bottom: 3px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-four {
@@ -372,7 +372,7 @@ b {
     opacity: .75;
     margin-top: 18px;
     margin-bottom: 5px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-five {
@@ -389,7 +389,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-six {
@@ -406,7 +406,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-seven {
@@ -423,7 +423,7 @@ b {
     opacity: .75;
     margin-top: 19px;
     margin-bottom: 5px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-eight {
@@ -440,7 +440,7 @@ b {
     opacity: .75;
     margin-top: 50px;
     margin-bottom: 0;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     height: 50px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
     width: 101px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
 }
@@ -462,7 +462,7 @@ b {
     opacity: .75;
     margin-top: 50px;
     margin-bottom: 0;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     line-height: 50px;
     margin-right: 54px;
     height: 50px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
@@ -486,7 +486,7 @@ b {
     opacity: .75;
     margin-top: 50px;
     margin-bottom: 0px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     line-height: 50px;
     height: 50px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
     width: 50px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
@@ -520,7 +520,7 @@ b {
     opacity: .75;
     margin-top: 3px;
     margin-bottom: 3px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-ten {
@@ -536,5 +536,5 @@ b {
     font-weight: 500;
     opacity: .75;
     margin-top: 20px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
