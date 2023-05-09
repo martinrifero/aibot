@@ -24,7 +24,7 @@
                     <span>Голос профессионального диктора Ильи Роговина.</span></p>
             </div>
             <div>
-                <button class="btn-primary" id="button3">▷</button>
+                <button class="btn-primary" id="button3">▶</button>
                 <audio id="audio3" src="music/dik3.wav"></audio>
                 <script>
                 const button3 = document.getElementById('button3');
@@ -33,11 +33,11 @@
                 button3.addEventListener('click', () => {
                     if (audio3.paused) { 
                     audio3.play();
-                    button3.textContent = '❘❘';
+                    button3.textContent = '││';
                     } else {
                     audio3.pause();
                     audio3.currentTime = 0;
-                    button3.textContent = '▷';
+                    button3.textContent = '▶';
                     }
                 });
                 </script>
@@ -62,7 +62,7 @@
                 button7.addEventListener('click', () => {
                     if (audio7.paused) { 
                     audio7.play();
-                    button7.textContent = '❘❘';
+                    button7.textContent = '┃┃';
                     } else {
                     audio7.pause();
                     audio7.currentTime = 0;
