@@ -426,6 +426,7 @@ b {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .btn-eight {
     position: relative;
     padding: 0;
@@ -438,16 +439,37 @@ b {
     color: #ececec;
     font-weight: 500;
     opacity: .75;
-    margin-top: 50px;
-    margin-bottom: 0;
+    margin-right: 15px;
     font-family: 'Roboto', sans-serif;
     height: 50px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
-    width: 101px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
+    width: 115px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
 }
 
 .btn-eight1 {
     position: relative;
     display: flex; 
+    justify-content: center; /* содержимое выравнивается по горизонтали по центру блока*/
+    align-items: center; /* содержимое выравнивается по вертикали по центру блока*/
+    padding: 0;
+    background: #071824;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #4a9ef2;
+    font-weight: 500;
+    opacity: .75;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 130px;
+    margin-left: 130px;
+    height: 50px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
+    width: 115px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
+}
+
+.btn-eight2 {
+    position: relative;
+    display: flex; /* блок настраивается как флекс-контейнер */
     justify-content: center; /* содержимое выравнивается по горизонтали по центру блока*/
     align-items: center; /* содержимое выравнивается по вертикали по центру блока*/
     padding: 0;
@@ -460,36 +482,9 @@ b {
     color: #ececec;
     font-weight: 500;
     opacity: .75;
-    margin-top: 50px;
-    margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
-    line-height: 50px;
-    margin-right: 54px;
     height: 50px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
-    width: 101px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
-}
-
-.btn-eight2 {
-    position: relative;
-    display: flex; /* блок настраивается как флекс-контейнер */
-    justify-content: center; /* содержимое выравнивается по горизонтали по центру блока*/
-    align-items: center; /* содержимое выравнивается по вертикали по центру блока*/
-    padding: 0;
-    background: #2f4553;
-    border: none;
-    outline: none;
-    border-radius: 100%;
-    cursor: pointer;
-    font-size: 13px;
-    color: #ececec;
-    font-weight: 500;
-    opacity: .75;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 50px;
-    height: 50px; /* высота кнопки задается здесь для того, чтобы изображение занимало всю площадь кнопки без отступов */
-    width: 50px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
+    width: 115px;  /* ширина кнопки задается здесь для того, чтобы текст был под кнопкой исходя из ширины */
 }
 
 .fixed-button {
