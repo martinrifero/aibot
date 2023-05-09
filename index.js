@@ -1,19 +1,3 @@
-// выбираем кнопку
-const button = document.querySelector('.fixed-button');
-
-// добавляем обработчик события
-window.addEventListener('scroll', function() {
-  // если страница прокручена на 500px или больше
-  if (window.pageYOffset >= 500) {
-    // показываем кнопку
-    button.style.display = 'block';
-  } else {
-    // скрываем кнопку
-    button.style.display = 'none';
-  }
-});
-
-
 let tg = window.Telegram.WebApp; 
 
 tg.expand();
